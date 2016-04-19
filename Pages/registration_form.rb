@@ -1,32 +1,36 @@
 require 'test/unit'
 require 'selenium-webdriver'
-require_relative "../Variables/variable"
-# require_relative "../Settings/main_settings"
+require "../Variables/variable"
+require "../Settings/main_settings"
 
 module Registration_Form
-  # include Main_settings
-
-  @driver = Selenium::WebDriver.for :firefox
-
-  @login_Textbox = @driver.find_element(:xpath, ::Login_Textbox)
-  @password_Textbox = @driver.find_element(:xpath, ::Password_Textbox)
-  @confirmation_Textbox = @driver.find_element(:xpath, ::Confirmation_Textbox)
-  @first_Name_Textbox = @driver.find_element(:xpath, ::First_Name_Textbox)
-  @last_Name_Textbox = @driver.find_element(:xpath, ::Last_Name_Textbox)
-  @email_Textbox = @driver.find_element(:xpath, ::Email_Textbox)
-  @submit_Button = @driver.find_element(:xpath, ::Submit_Button)
+  include Main_settings
 
   def fill_fields
-    login = "Kay" + rand(99999).to_s
-    @login_Textbox.send(login)
-    @password_Textbox.send("06011988")
-    @confirmation_Textbox.send("06011988")
-    @first_Name_Textbox.send("Serhii")
-    @last_Name_Textbox.send("Kay")
-    @email_Textbox.send("Kay444413@ukr.net")
+    sleep (3)
+    wait_till_ell_is_present (@login_Textbox = @driver.find_element(:xpath, ::Login_Textbox))
+    @password_Textbox = @driver.find_element(:xpath, ::Password_Textbox)
+    @confirmation_Textbox = @driver.find_element(:xpath, ::Confirmation_Textbox)
+    @first_Name_Textbox = @driver.find_element(:xpath, ::First_Name_Textbox)
+    @last_Name_Textbox = @driver.find_element(:xpath, ::Last_Name_Textbox)
+    @email_Textbox = @driver.find_element(:xpath, ::Email_Textbox)
+    @submit_Button = @driver.find_element(:xpath, ::Submit_Button)
+
+    login = ("Kay" + rand(1).to_s)
+    @login_Textbox.send_keys(login)
+    @password_Textbox.send_keys("06011988")
+    @confirmation_Textbox.send_keys("06011988")
+    @first_Name_Textbox.send_keys("Serhii")
+    @last_Name_Textbox.send_keys("Kay")
+    @email_Textbox.send_keys("kay444413" + login + "@ukr.net")
   end
 
   def click_Submit_Button
     @submit_Button.click
+  end
+
+  def verify_user_is_registered
+    wait_till_ell_is_present (registration_Confirmation_Messqage = @driver.find_element(:xpath, ::Registration_Confirmation_Messqage))
+    assert (registration_Confirmation_Messqage.displayed?)
   end
 end

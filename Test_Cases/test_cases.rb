@@ -1,31 +1,26 @@
 require 'test/unit'
 require_relative '../Pages/login_page'
 require_relative '../Pages/registration_form'
-# require_relative "../Settings/main_settings"
+require_relative "../Settings/main_settings"
+require_relative "../Pages/home_page"
 
 class Test_Cases < Test::Unit::TestCase
 
   include Login_Page
   include Registration_Form
-  # include Main_settings
-
-  def setup
-    @driver = Selenium::WebDriver.for :firefox
-    @wait = Selenium::WebDriver::Wait.new(:timeout => 10)
-    # browser = Watir::Browser.new :firefox
-    # browser.goto 'http://demo.redmine.org'
-    @driver.navigate.to 'http://demo.redmine.org'
-  end
-
+  include Main_settings
+  include Home_Page
 
   def test_create_new_user
     click_register_link
     fill_fields
     click_Submit_Button
+    verify_user_is_registered
   end
 
-  def teardown
-    @driver.quit
+  def test_sign_in
+    click_sign_in_link
+    perform_login
   end
 
 end

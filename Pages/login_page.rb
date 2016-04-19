@@ -1,16 +1,19 @@
 require 'test/unit'
 require 'selenium-webdriver'
-require_relative "../Variables/variable"
-# require_relative "../Settings/main_settings"
+require "../Variables/variable"
+require "../Settings/main_settings"
 
 module Login_Page
-  # include Main_settings
+  include Main_settings
 
-  @driver = Selenium::WebDriver.for :firefox
+  def perform_login
+    wait_till_ell_is_present(login_1_textbox = @driver.find_element(:xpath, ::Login_1_textbox))
+    password_1_Textbox = @driver.find_element(:xpath, ::Password_1_Textbox)
+    login_Button = @driver.find_element(:xpath, ::Login_Button)
 
-  def click_register_link
-    wait_till_ell_is_present(@register_link = @driver.find_element(:xpath, ::Register_Link))
-    @register_link.click
+    login_1_textbox.send_key("Kay")
+    password_1_Textbox.send_key("06011988")
+    login_Button.click
   end
 
 end
