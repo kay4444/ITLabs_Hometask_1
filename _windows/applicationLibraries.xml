@@ -1,5 +1,27 @@
 <application>
   <component name="libraryTable">
+    <library name="bundler (v1.12.0.rc.2, ruby-2.3.0-p0) [gem]">
+      <CLASSES>
+        <root url="file://C:/Ruby23/lib/ruby/gems/2.3.0/gems/bundler-1.12.0.rc.2/bin" />
+        <root url="file://C:/Ruby23/lib/ruby/gems/2.3.0/gems/bundler-1.12.0.rc.2/exe" />
+        <root url="file://C:/Ruby23/lib/ruby/gems/2.3.0/gems/bundler-1.12.0.rc.2/lib" />
+        <root url="file://C:/Ruby23/lib/ruby/gems/2.3.0/gems/bundler-1.12.0.rc.2/man" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://C:/Ruby23/lib/ruby/gems/2.3.0/gems/bundler-1.12.0.rc.2/bin" />
+        <root url="file://C:/Ruby23/lib/ruby/gems/2.3.0/gems/bundler-1.12.0.rc.2/exe" />
+        <root url="file://C:/Ruby23/lib/ruby/gems/2.3.0/gems/bundler-1.12.0.rc.2/lib" />
+        <root url="file://C:/Ruby23/lib/ruby/gems/2.3.0/gems/bundler-1.12.0.rc.2/man" />
+      </SOURCES>
+    </library>
+    <library name="childprocess (v0.5.9, ruby-2.3.0-p0) [gem]">
+      <CLASSES>
+        <root url="file://C:/Ruby23/lib/ruby/gems/2.3.0/gems/childprocess-0.5.9/lib" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://C:/Ruby23/lib/ruby/gems/2.3.0/gems/childprocess-0.5.9/lib" />
+      </SOURCES>
+    </library>
     <library name="did_you_mean (v1.0.0, ruby-2.3.0-p0) [gem]">
       <CLASSES>
         <root url="file://C:/Ruby23/lib/ruby/gems/2.3.0/gems/did_you_mean-1.0.0/lib" />
@@ -10,6 +32,32 @@
         <root url="file://C:/Ruby23/lib/ruby/gems/2.3.0/gems/did_you_mean-1.0.0/lib" />
         <root url="file://C:/Ruby23/lib/ruby/gems/2.3.0/gems/did_you_mean-1.0.0/benchmark" />
         <root url="file://C:/Ruby23/lib/ruby/gems/2.3.0/gems/did_you_mean-1.0.0/evaluation" />
+      </SOURCES>
+    </library>
+    <library name="diff-lcs (v1.2.5, ruby-2.3.0-p0) [gem]">
+      <CLASSES>
+        <root url="file://C:/Ruby23/lib/ruby/gems/2.3.0/gems/diff-lcs-1.2.5/bin" />
+        <root url="file://C:/Ruby23/lib/ruby/gems/2.3.0/gems/diff-lcs-1.2.5/lib" />
+        <root url="file://C:/Ruby23/lib/ruby/gems/2.3.0/gems/diff-lcs-1.2.5/autotest" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://C:/Ruby23/lib/ruby/gems/2.3.0/gems/diff-lcs-1.2.5/bin" />
+        <root url="file://C:/Ruby23/lib/ruby/gems/2.3.0/gems/diff-lcs-1.2.5/lib" />
+        <root url="file://C:/Ruby23/lib/ruby/gems/2.3.0/gems/diff-lcs-1.2.5/autotest" />
+      </SOURCES>
+    </library>
+    <library name="ffi (v1.9.10, ruby-2.3.0-p0) [gem]">
+      <CLASSES>
+        <root url="file://C:/Ruby23/lib/ruby/gems/2.3.0/gems/ffi-1.9.10-x86-mingw32/ext" />
+        <root url="file://C:/Ruby23/lib/ruby/gems/2.3.0/gems/ffi-1.9.10-x86-mingw32/gen" />
+        <root url="file://C:/Ruby23/lib/ruby/gems/2.3.0/gems/ffi-1.9.10-x86-mingw32/lib" />
+        <root url="file://C:/Ruby23/lib/ruby/gems/2.3.0/gems/ffi-1.9.10-x86-mingw32/libtest" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://C:/Ruby23/lib/ruby/gems/2.3.0/gems/ffi-1.9.10-x86-mingw32/ext" />
+        <root url="file://C:/Ruby23/lib/ruby/gems/2.3.0/gems/ffi-1.9.10-x86-mingw32/gen" />
+        <root url="file://C:/Ruby23/lib/ruby/gems/2.3.0/gems/ffi-1.9.10-x86-mingw32/lib" />
+        <root url="file://C:/Ruby23/lib/ruby/gems/2.3.0/gems/ffi-1.9.10-x86-mingw32/libtest" />
       </SOURCES>
     </library>
     <library name="io-console (v0.4.5, ruby-2.3.0-p0) [gem]">
@@ -78,6 +126,14 @@
         <root url="file://C:/Ruby23/lib/ruby/2.3.0/unicode_normalize" />
       </SOURCES>
     </library>
+    <library name="mini_portile2 (v2.0.0, ruby-2.3.0-p0) [gem]">
+      <CLASSES>
+        <root url="file://C:/Ruby23/lib/ruby/gems/2.3.0/gems/mini_portile2-2.0.0/lib" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://C:/Ruby23/lib/ruby/gems/2.3.0/gems/mini_portile2-2.0.0/lib" />
+      </SOURCES>
+    </library>
     <library name="minitest (v5.8.3, ruby-2.3.0-p0) [gem]">
       <CLASSES>
         <root url="file://C:/Ruby23/lib/ruby/gems/2.3.0/gems/minitest-5.8.3/lib" />
@@ -116,6 +172,66 @@
         <root url="file://C:/Ruby23/lib/ruby/gems/2.3.0/gems/rake-10.4.2/rakelib" />
       </SOURCES>
     </library>
+    <library name="rspec (v3.5.0.beta3, ruby-2.3.0-p0) [gem]">
+      <CLASSES>
+        <root url="file://C:/Ruby23/lib/ruby/gems/2.3.0/gems/rspec-3.5.0.beta3/lib" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://C:/Ruby23/lib/ruby/gems/2.3.0/gems/rspec-3.5.0.beta3/lib" />
+      </SOURCES>
+    </library>
+    <library name="rspec-core (v3.5.0.beta3, ruby-2.3.0-p0) [gem]">
+      <CLASSES>
+        <root url="file://C:/Ruby23/lib/ruby/gems/2.3.0/gems/rspec-core-3.5.0.beta3/exe" />
+        <root url="file://C:/Ruby23/lib/ruby/gems/2.3.0/gems/rspec-core-3.5.0.beta3/lib" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://C:/Ruby23/lib/ruby/gems/2.3.0/gems/rspec-core-3.5.0.beta3/exe" />
+        <root url="file://C:/Ruby23/lib/ruby/gems/2.3.0/gems/rspec-core-3.5.0.beta3/lib" />
+      </SOURCES>
+    </library>
+    <library name="rspec-expectations (v3.5.0.beta3, ruby-2.3.0-p0) [gem]">
+      <CLASSES>
+        <root url="file://C:/Ruby23/lib/ruby/gems/2.3.0/gems/rspec-expectations-3.5.0.beta3/lib" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://C:/Ruby23/lib/ruby/gems/2.3.0/gems/rspec-expectations-3.5.0.beta3/lib" />
+      </SOURCES>
+    </library>
+    <library name="rspec-mocks (v3.5.0.beta3, ruby-2.3.0-p0) [gem]">
+      <CLASSES>
+        <root url="file://C:/Ruby23/lib/ruby/gems/2.3.0/gems/rspec-mocks-3.5.0.beta3/lib" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://C:/Ruby23/lib/ruby/gems/2.3.0/gems/rspec-mocks-3.5.0.beta3/lib" />
+      </SOURCES>
+    </library>
+    <library name="rspec-support (v3.5.0.beta3, ruby-2.3.0-p0) [gem]">
+      <CLASSES>
+        <root url="file://C:/Ruby23/lib/ruby/gems/2.3.0/gems/rspec-support-3.5.0.beta3/lib" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://C:/Ruby23/lib/ruby/gems/2.3.0/gems/rspec-support-3.5.0.beta3/lib" />
+      </SOURCES>
+    </library>
+    <library name="rubyzip (v1.2.0, ruby-2.3.0-p0) [gem]">
+      <CLASSES>
+        <root url="file://C:/Ruby23/lib/ruby/gems/2.3.0/gems/rubyzip-1.2.0/lib" />
+        <root url="file://C:/Ruby23/lib/ruby/gems/2.3.0/gems/rubyzip-1.2.0/samples" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://C:/Ruby23/lib/ruby/gems/2.3.0/gems/rubyzip-1.2.0/lib" />
+        <root url="file://C:/Ruby23/lib/ruby/gems/2.3.0/gems/rubyzip-1.2.0/samples" />
+      </SOURCES>
+    </library>
+    <library name="selenium-webdriver (v2.53.0, ruby-2.3.0-p0) [gem]">
+      <CLASSES>
+        <root url="file://C:/Ruby23/lib/ruby/gems/2.3.0/gems/selenium-webdriver-2.53.0/lib" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://C:/Ruby23/lib/ruby/gems/2.3.0/gems/selenium-webdriver-2.53.0/lib" />
+      </SOURCES>
+    </library>
     <library name="test-unit (v3.1.5, ruby-2.3.0-p0) [gem]">
       <CLASSES>
         <root url="file://C:/Ruby23/lib/ruby/gems/2.3.0/gems/test-unit-3.1.5/lib" />
@@ -124,6 +240,14 @@
       <SOURCES>
         <root url="file://C:/Ruby23/lib/ruby/gems/2.3.0/gems/test-unit-3.1.5/lib" />
         <root url="file://C:/Ruby23/lib/ruby/gems/2.3.0/gems/test-unit-3.1.5/sample" />
+      </SOURCES>
+    </library>
+    <library name="websocket (v1.2.3, ruby-2.3.0-p0) [gem]">
+      <CLASSES>
+        <root url="file://C:/Ruby23/lib/ruby/gems/2.3.0/gems/websocket-1.2.3/lib" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://C:/Ruby23/lib/ruby/gems/2.3.0/gems/websocket-1.2.3/lib" />
       </SOURCES>
     </library>
   </component>
