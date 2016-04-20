@@ -48,12 +48,14 @@
     </library>
     <library name="ffi (v1.9.10, ruby-2.3.0-p0) [gem]">
       <CLASSES>
+        <root url="file://$APPLICATION_CONFIG_DIR$/rubystubs/ruby18/ffi/1.9.10" />
         <root url="file://C:/Ruby23/lib/ruby/gems/2.3.0/gems/ffi-1.9.10-x86-mingw32/ext" />
         <root url="file://C:/Ruby23/lib/ruby/gems/2.3.0/gems/ffi-1.9.10-x86-mingw32/gen" />
         <root url="file://C:/Ruby23/lib/ruby/gems/2.3.0/gems/ffi-1.9.10-x86-mingw32/lib" />
         <root url="file://C:/Ruby23/lib/ruby/gems/2.3.0/gems/ffi-1.9.10-x86-mingw32/libtest" />
       </CLASSES>
       <SOURCES>
+        <root url="file://$APPLICATION_CONFIG_DIR$/rubystubs/ruby18/ffi/1.9.10" />
         <root url="file://C:/Ruby23/lib/ruby/gems/2.3.0/gems/ffi-1.9.10-x86-mingw32/ext" />
         <root url="file://C:/Ruby23/lib/ruby/gems/2.3.0/gems/ffi-1.9.10-x86-mingw32/gen" />
         <root url="file://C:/Ruby23/lib/ruby/gems/2.3.0/gems/ffi-1.9.10-x86-mingw32/lib" />
