@@ -22,18 +22,7 @@ class Test_Cases < Test::Unit::TestCase
   include My_Account_Page
   include Change_Password_Page
 
-  def test_cereate_project_version
-    project_name = "My_Project_1"
-
-    click_sign_in_link
-    perform_login
-    check_user_is_signed
-    click_projects_link
-    find_and_navigate_to_project(project_name)
-    cereate_project_version
-  end
-
-  # def test_user_role
+  # def test_create_issue
   #   project_name = "My_Project_1"
   #
   #   click_sign_in_link
@@ -41,8 +30,34 @@ class Test_Cases < Test::Unit::TestCase
   #   check_user_is_signed
   #   click_projects_link
   #   find_and_navigate_to_project(project_name)
-  #   edit_users_role("Kay", "Developer")
+  # #   Issye type can be: Bug, Feature or Support
+  #   create_issue("Bug")
+  #   create_issue("Feature")
+  #   create_issue("Support")
+  #   checking_that_Issues_are_presented
   # end
+  #
+  # def test_cereate_project_version
+  #   project_name = "My_Project_1"
+  #
+  #   click_sign_in_link
+  #   perform_login
+  #   check_user_is_signed
+  #   click_projects_link
+  #   find_and_navigate_to_project(project_name)
+  #   create_project_version
+  # end
+  #
+  def test_user_role
+    project_name = "My_Project_2"
+
+    click_sign_in_link
+    perform_login
+    check_user_is_signed
+    click_projects_link
+    find_and_navigate_to_project(project_name)
+    edit_users_role("Kay", "Developer")
+  end
   #
   # def test_add_user_to_project
   #   project_name = "My_Project"

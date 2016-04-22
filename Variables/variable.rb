@@ -69,6 +69,20 @@ Version_Name_Textbox = "//input[@id='version_name']"
 Submit_Version_Button = "//input[@type='submit']"
 Successful_Version_Creation_Message = "//div[@id='flash_notice' and @class='flash notice']"
 
+New_Issues_Tab = "//a[@class='new-issue']"
+Tracker_Issue_Type = "//select[@id='issue_tracker_id']" # Bug item is selected by default
+Track_Issue_Type_Support = "//select[@id='issue_tracker_id']/option[text()='Support']"
+Subject_Text_Field = "//input[@id='issue_subject']"
+Status_Drop_Down = "//select[@id='issue_status_id']"
+Status_Drop_Down_Item_New = "//select[@id='issue_status_id']/option[text()='New']"
+Priority_Drop_Down = "//select[@id='issue_priority_id']"
+Priority_Drop_Down_Item_Normal = "//select[@id='issue_priority_id']/option[text()='Normal']"
+Create_1_Button = "//input[@name='commit']"
+Message_About_Successful_Issue_Ceation = "//div[@id='flash_notice' and @class='flash notice' and contains(.,'created')]"
+Number_Of_Created_Issue = "//div[@id='flash_notice' and @class='flash notice']/a"
+Issue_Tab = "//a[@href='/projects/my_project_1/issues' and text()='Issues']"
+Issue_Item_In_List = "//tr/td[contains(.,'131314')]"
+
 
 def wait_till_ell_is_present(ell)
   wait = Selenium::WebDriver::Wait.new(:timeout => 10)

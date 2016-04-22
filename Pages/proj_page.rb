@@ -82,12 +82,14 @@ module ProjPage
     # @desired_role_for_proper_user = @driver.find_element(:xpath, "//tr[.//a[@class='user active' and text()='" + user + "']]//p/label[contains(.,'" + role + "')]")
     # selected checkbox "//tr[.//a[@class='user active' and text()='Kay Kay']]//p/label[contains(.,'Reporter') and input[@checked='checked']]"
     @checkbox_for_proper_role_of_proper_user = @driver.find_element(:xpath, "//tr[.//a[@class='user active' and text()='" + user_name + "']]//p/label[contains(.,'" + role + "') and input[@type='checkbox']]")
-    @checkbox_for_proper_role_of_proper_user.click unless @checkbox_for_proper_role_of_proper_user.selected?
-    # if(@checkbox_for_proper_role_of_proper_user.selected?)
-    #   puts ('Check box is selected')
-    # else
-    #   @checkbox_for_proper_role_of_proper_user.click
-    # end
+    # state = @checkbox_for_proper_role_of_proper_user.attribute('checked').nil?                 # Checking if ceck box is checked
+    # @checkbox_for_proper_role_of_proper_user.click unless state==true                         # Checking if ceck box is checked
+    state = @checkbox_for_proper_role_of_proper_user.selected?
+    if(state===true)
+      puts ('Check box is selected')
+    else
+      @checkbox_for_proper_role_of_proper_user.click
+    end
     # @checkbox_for_proper_role_of_proper_user.each { |e| e.click if e.attribute('checked').nil?}
     sleep (1)
     @save_1_Button = @driver.find_element(:xpath, ::Save_1_Button)
@@ -97,7 +99,7 @@ module ProjPage
     assert(@selected_role_applyed.displayed?)
   end
 
-  def cereate_project_version
+  def create_project_version
     wait_till_ell_is_present(@settings_Tab = @driver.find_element(:xpath, ::Settings_Tab))
     @settings_Tab.click
     sleep (1)
@@ -115,6 +117,46 @@ module ProjPage
     sleep (1)
     @successful_Version_Creation_Message = @driver.find_element(:xpath, ::Successful_Version_Creation_Message)
     assert(@successful_Version_Creation_Message.displayed?)
+  end
+
+  @@massive = Array[]
+
+  def create_issue (type)
+    @sub = "Kay Issue " + rand(999999).to_s
+    sleep 2
+    @new_Issues_Tab = @driver.find_element(:xpath, ::New_Issues_Tab)
+    @new_Issues_Tab.click
+    sleep 1
+    @tracker_Issue_Type = @driver.find_element(:xpath, ::Tracker_Issue_Type)
+    @tracker_Issue_Type.click
+    sleep 1
+    @select_desired_issue_type = @driver.find_element(:xpath, "//select[@id='issue_tracker_id']/option[text()='" + type + "']")
+    @select_desired_issue_type.click
+    sleep 1
+    @subject_Text_Field = @driver.find_element(:xpath, ::Subject_Text_Field)
+    @subject_Text_Field.send_key(@sub)
+    sleep 1
+    @create_1_Button = @driver.find_element(:xpath, ::Create_1_Button)
+    @create_1_Button.click
+    sleep 2
+    @message_About_Successful_Issue_Ceation = @driver.find_element(:xpath, ::Message_About_Successful_Issue_Ceation)
+    assert (@message_About_Successful_Issue_Ceation.displayed?)
+    @number_Of_Created_Issue = @driver.find_element(:xpath, ::Number_Of_Created_Issue)
+    ell = @number_Of_Created_Issue.text
+    @@massive.push(ell)
+  end
+
+  def checking_that_Issues_are_presented
+    @issue_Tab = @driver.find_element(:xpath, ::Issue_Tab)
+    @issue_Tab.click
+    i=0
+    while(i<3)
+      el = @@massive[i].to_s
+      ell = el.delete("#")
+      elll = @driver.find_element(:xpath, "//tr/td[contains(.,'" + ell + "')]")
+      assert(elll.displayed?)
+      i = i+1
+    end
   end
 
 end
