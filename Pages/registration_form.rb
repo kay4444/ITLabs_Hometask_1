@@ -16,7 +16,7 @@ module Registration_Form
     @email_Textbox = @driver.find_element(:xpath, ::Email_Textbox)
     @submit_Button = @driver.find_element(:xpath, ::Submit_Button)
 
-    login = ("Kay" + rand(1).to_s)
+    login = ("Kay" + rand(99999).to_s)
     @login_Textbox.send_keys(login)
     @password_Textbox.send_keys("06011988")
     @confirmation_Textbox.send_keys("06011988")
@@ -30,7 +30,8 @@ module Registration_Form
   end
 
   def verify_user_is_registered
-    wait_till_ell_is_present (registration_Confirmation_Messqage = @driver.find_element(:xpath, ::Registration_Confirmation_Messqage))
+    sleep 5
+    registration_Confirmation_Messqage = @driver.find_element(:xpath, ::Registration_Confirmation_Messqage)
     assert (registration_Confirmation_Messqage.displayed?)
   end
 end

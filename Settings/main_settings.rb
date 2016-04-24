@@ -11,8 +11,8 @@ module Main_settings
     @driver.navigate.to 'http://demo.redmine.org'
   end
 
-  def teardown
-    @driver.quit
-  end
+  # def teardown
+  #   @driver.quit
+  # end
 
 end

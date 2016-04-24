@@ -7,6 +7,7 @@ module Login_Page
   include Main_settings
 
   def perform_login
+    sleep (3)
     wait_till_ell_is_present(login_1_textbox = @driver.find_element(:xpath, ::Login_1_textbox))
     password_1_Textbox = @driver.find_element(:xpath, ::Password_1_Textbox)
     login_Button = @driver.find_element(:xpath, ::Login_Button)
