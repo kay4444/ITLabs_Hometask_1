@@ -1,5 +1,29 @@
 <application>
   <component name="libraryTable">
+    <library name="addressable (v2.4.0, ruby-2.2.4-p230 (1)) [gem]">
+      <CLASSES>
+        <root url="file://C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/addressable-2.4.0/lib" />
+        <root url="file://C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/addressable-2.4.0/data" />
+        <root url="file://C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/addressable-2.4.0/tasks" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/addressable-2.4.0/lib" />
+        <root url="file://C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/addressable-2.4.0/data" />
+        <root url="file://C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/addressable-2.4.0/tasks" />
+      </SOURCES>
+    </library>
+    <library name="addressable (v2.4.0, ruby-2.2.4-p230) [gem]">
+      <CLASSES>
+        <root url="file://C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/addressable-2.4.0/lib" />
+        <root url="file://C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/addressable-2.4.0/data" />
+        <root url="file://C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/addressable-2.4.0/tasks" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/addressable-2.4.0/lib" />
+        <root url="file://C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/addressable-2.4.0/data" />
+        <root url="file://C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/addressable-2.4.0/tasks" />
+      </SOURCES>
+    </library>
     <library name="bundler (v1.11.2, ruby-2.2.4-p230 (1)) [gem]">
       <CLASSES>
         <root url="file://C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/bundler-1.11.2/bin" />
@@ -26,6 +50,22 @@
         <root url="file://C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/bundler-1.11.2/exe" />
         <root url="file://C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/bundler-1.11.2/lib" />
         <root url="file://C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/bundler-1.11.2/man" />
+      </SOURCES>
+    </library>
+    <library name="capybara (v2.7.0, ruby-2.2.4-p230 (1)) [gem]">
+      <CLASSES>
+        <root url="file://C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/capybara-2.7.0/lib" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/capybara-2.7.0/lib" />
+      </SOURCES>
+    </library>
+    <library name="capybara (v2.7.0, ruby-2.2.4-p230) [gem]">
+      <CLASSES>
+        <root url="file://C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/capybara-2.7.0/lib" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/capybara-2.7.0/lib" />
       </SOURCES>
     </library>
     <library name="childprocess (v0.5.9, ruby-2.2.4-p230 (1)) [gem]">
@@ -428,6 +468,62 @@
         <root url="file://C:/Ruby23/lib/ruby/2.3.0/unicode_normalize" />
       </SOURCES>
     </library>
+    <library name="mime-types (v3.0, ruby-2.2.4-p230 (1)) [gem]">
+      <CLASSES>
+        <root url="file://C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/mime-types-3.0/lib" />
+        <root url="file://C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/mime-types-3.0/support" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/mime-types-3.0/lib" />
+        <root url="file://C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/mime-types-3.0/support" />
+      </SOURCES>
+    </library>
+    <library name="mime-types (v3.0, ruby-2.2.4-p230) [gem]">
+      <CLASSES>
+        <root url="file://C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/mime-types-3.0/lib" />
+        <root url="file://C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/mime-types-3.0/support" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/mime-types-3.0/lib" />
+        <root url="file://C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/mime-types-3.0/support" />
+      </SOURCES>
+    </library>
+    <library name="mime-types-data (v3.2016.0221, ruby-2.2.4-p230 (1)) [gem]">
+      <CLASSES>
+        <root url="file://C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/mime-types-data-3.2016.0221/lib" />
+        <root url="file://C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/mime-types-data-3.2016.0221/data" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/mime-types-data-3.2016.0221/lib" />
+        <root url="file://C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/mime-types-data-3.2016.0221/data" />
+      </SOURCES>
+    </library>
+    <library name="mime-types-data (v3.2016.0221, ruby-2.2.4-p230) [gem]">
+      <CLASSES>
+        <root url="file://C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/mime-types-data-3.2016.0221/lib" />
+        <root url="file://C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/mime-types-data-3.2016.0221/data" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/mime-types-data-3.2016.0221/lib" />
+        <root url="file://C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/mime-types-data-3.2016.0221/data" />
+      </SOURCES>
+    </library>
+    <library name="mini_portile2 (v2.0.0, ruby-2.2.4-p230 (1)) [gem]">
+      <CLASSES>
+        <root url="file://C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/mini_portile2-2.0.0/lib" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/mini_portile2-2.0.0/lib" />
+      </SOURCES>
+    </library>
+    <library name="mini_portile2 (v2.0.0, ruby-2.2.4-p230) [gem]">
+      <CLASSES>
+        <root url="file://C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/mini_portile2-2.0.0/lib" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/mini_portile2-2.0.0/lib" />
+      </SOURCES>
+    </library>
     <library name="minitest (v5.4.3, ruby-2.2.4-p230 (1)) [gem]">
       <CLASSES>
         <root url="file://C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/minitest-5.4.3/lib" />
@@ -460,6 +556,44 @@
       <SOURCES>
         <root url="file://C:/Ruby23/lib/ruby/gems/2.3.0/gems/net-telnet-0.1.1/bin" />
         <root url="file://C:/Ruby23/lib/ruby/gems/2.3.0/gems/net-telnet-0.1.1/lib" />
+      </SOURCES>
+    </library>
+    <library name="nokogiri (v1.6.7.2, ruby-2.2.4-p230 (1)) [gem]">
+      <CLASSES>
+        <root url="file://C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/nokogiri-1.6.7.2-x64-mingw32/bin" />
+        <root url="file://C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/nokogiri-1.6.7.2-x64-mingw32/ext" />
+        <root url="file://C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/nokogiri-1.6.7.2-x64-mingw32/lib" />
+        <root url="file://C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/nokogiri-1.6.7.2-x64-mingw32/tasks" />
+        <root url="file://C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/nokogiri-1.6.7.2-x64-mingw32/patches" />
+        <root url="file://C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/nokogiri-1.6.7.2-x64-mingw32/suppressions" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/nokogiri-1.6.7.2-x64-mingw32/bin" />
+        <root url="file://C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/nokogiri-1.6.7.2-x64-mingw32/ext" />
+        <root url="file://C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/nokogiri-1.6.7.2-x64-mingw32/lib" />
+        <root url="file://C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/nokogiri-1.6.7.2-x64-mingw32/tasks" />
+        <root url="file://C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/nokogiri-1.6.7.2-x64-mingw32/patches" />
+        <root url="file://C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/nokogiri-1.6.7.2-x64-mingw32/suppressions" />
+      </SOURCES>
+    </library>
+    <library name="nokogiri (v1.6.7.2, ruby-2.2.4-p230) [gem]">
+      <CLASSES>
+        <root url="file://$APPLICATION_CONFIG_DIR$/rubystubs/ruby18/nokogiri/1.6.7.2" />
+        <root url="file://C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/nokogiri-1.6.7.2-x64-mingw32/bin" />
+        <root url="file://C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/nokogiri-1.6.7.2-x64-mingw32/ext" />
+        <root url="file://C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/nokogiri-1.6.7.2-x64-mingw32/lib" />
+        <root url="file://C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/nokogiri-1.6.7.2-x64-mingw32/tasks" />
+        <root url="file://C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/nokogiri-1.6.7.2-x64-mingw32/patches" />
+        <root url="file://C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/nokogiri-1.6.7.2-x64-mingw32/suppressions" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://$APPLICATION_CONFIG_DIR$/rubystubs/ruby18/nokogiri/1.6.7.2" />
+        <root url="file://C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/nokogiri-1.6.7.2-x64-mingw32/bin" />
+        <root url="file://C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/nokogiri-1.6.7.2-x64-mingw32/ext" />
+        <root url="file://C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/nokogiri-1.6.7.2-x64-mingw32/lib" />
+        <root url="file://C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/nokogiri-1.6.7.2-x64-mingw32/tasks" />
+        <root url="file://C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/nokogiri-1.6.7.2-x64-mingw32/patches" />
+        <root url="file://C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/nokogiri-1.6.7.2-x64-mingw32/suppressions" />
       </SOURCES>
     </library>
     <library name="page-object (v1.1.1, ruby-2.2.4-p230 (1)) [gem]">
@@ -520,6 +654,66 @@
       </CLASSES>
       <SOURCES>
         <root url="file://C:/Ruby23/lib/ruby/gems/2.3.0/gems/power_assert-0.2.6/lib" />
+      </SOURCES>
+    </library>
+    <library name="power_assert (v0.2.7, ruby-2.2.4-p230 (1)) [gem]">
+      <CLASSES>
+        <root url="file://C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/power_assert-0.2.7/lib" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/power_assert-0.2.7/lib" />
+      </SOURCES>
+    </library>
+    <library name="power_assert (v0.2.7, ruby-2.2.4-p230) [gem]">
+      <CLASSES>
+        <root url="file://C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/power_assert-0.2.7/lib" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/power_assert-0.2.7/lib" />
+      </SOURCES>
+    </library>
+    <library name="rack (v1.6.4, ruby-2.2.4-p230 (1)) [gem]">
+      <CLASSES>
+        <root url="file://C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/rack-1.6.4/bin" />
+        <root url="file://C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/rack-1.6.4/lib" />
+        <root url="file://C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/rack-1.6.4/contrib" />
+        <root url="file://C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/rack-1.6.4/example" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/rack-1.6.4/bin" />
+        <root url="file://C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/rack-1.6.4/lib" />
+        <root url="file://C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/rack-1.6.4/contrib" />
+        <root url="file://C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/rack-1.6.4/example" />
+      </SOURCES>
+    </library>
+    <library name="rack (v1.6.4, ruby-2.2.4-p230) [gem]">
+      <CLASSES>
+        <root url="file://C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/rack-1.6.4/bin" />
+        <root url="file://C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/rack-1.6.4/lib" />
+        <root url="file://C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/rack-1.6.4/contrib" />
+        <root url="file://C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/rack-1.6.4/example" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/rack-1.6.4/bin" />
+        <root url="file://C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/rack-1.6.4/lib" />
+        <root url="file://C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/rack-1.6.4/contrib" />
+        <root url="file://C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/rack-1.6.4/example" />
+      </SOURCES>
+    </library>
+    <library name="rack-test (v0.6.3, ruby-2.2.4-p230 (1)) [gem]">
+      <CLASSES>
+        <root url="file://C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/rack-test-0.6.3/lib" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/rack-test-0.6.3/lib" />
+      </SOURCES>
+    </library>
+    <library name="rack-test (v0.6.3, ruby-2.2.4-p230) [gem]">
+      <CLASSES>
+        <root url="file://C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/rack-test-0.6.3/lib" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/rack-test-0.6.3/lib" />
       </SOURCES>
     </library>
     <library name="rake (v10.4.2, ruby-2.3.0-p0) [gem]">
@@ -708,6 +902,26 @@
         <root url="file://C:/Ruby23/lib/ruby/gems/2.3.0/gems/test-unit-3.1.5/sample" />
       </SOURCES>
     </library>
+    <library name="test-unit (v3.1.8, ruby-2.2.4-p230 (1)) [gem]">
+      <CLASSES>
+        <root url="file://C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/test-unit-3.1.8/lib" />
+        <root url="file://C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/test-unit-3.1.8/sample" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/test-unit-3.1.8/lib" />
+        <root url="file://C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/test-unit-3.1.8/sample" />
+      </SOURCES>
+    </library>
+    <library name="test-unit (v3.1.8, ruby-2.2.4-p230) [gem]">
+      <CLASSES>
+        <root url="file://C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/test-unit-3.1.8/lib" />
+        <root url="file://C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/test-unit-3.1.8/sample" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/test-unit-3.1.8/lib" />
+        <root url="file://C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/test-unit-3.1.8/sample" />
+      </SOURCES>
+    </library>
     <library name="watir-webdriver (v0.9.1, ruby-2.2.4-p230 (1)) [gem]">
       <CLASSES>
         <root url="file://C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/watir-webdriver-0.9.1/lib" />
@@ -742,6 +956,22 @@
       </CLASSES>
       <SOURCES>
         <root url="file://C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/websocket-1.2.3/lib" />
+      </SOURCES>
+    </library>
+    <library name="xpath (v2.0.0, ruby-2.2.4-p230 (1)) [gem]">
+      <CLASSES>
+        <root url="file://C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/xpath-2.0.0/lib" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/xpath-2.0.0/lib" />
+      </SOURCES>
+    </library>
+    <library name="xpath (v2.0.0, ruby-2.2.4-p230) [gem]">
+      <CLASSES>
+        <root url="file://C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/xpath-2.0.0/lib" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/xpath-2.0.0/lib" />
       </SOURCES>
     </library>
     <library name="yml_reader (v0.7, ruby-2.2.4-p230 (1)) [gem]">
