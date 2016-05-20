@@ -1130,6 +1130,18 @@
         <root url="file://C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/ipaddress-0.8.0/lib" />
       </SOURCES>
     </library>
+    <library name="jasmine (v2.3.0@869cae, ruby-2.2.4-p230) [gem]">
+      <CLASSES>
+        <root url="file://C:/Ruby22-x64/lib/ruby/gems/2.2.0/bundler/gems/jasmine-gem-869cae76cf1a/bin" />
+        <root url="file://C:/Ruby22-x64/lib/ruby/gems/2.2.0/bundler/gems/jasmine-gem-869cae76cf1a/lib" />
+        <root url="file://C:/Ruby22-x64/lib/ruby/gems/2.2.0/bundler/gems/jasmine-gem-869cae76cf1a/release_notes" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://C:/Ruby22-x64/lib/ruby/gems/2.2.0/bundler/gems/jasmine-gem-869cae76cf1a/bin" />
+        <root url="file://C:/Ruby22-x64/lib/ruby/gems/2.2.0/bundler/gems/jasmine-gem-869cae76cf1a/lib" />
+        <root url="file://C:/Ruby22-x64/lib/ruby/gems/2.2.0/bundler/gems/jasmine-gem-869cae76cf1a/release_notes" />
+      </SOURCES>
+    </library>
     <library name="jasmine-core (v2.3.4, ruby-2.2.4-p230 (1)) [gem]">
       <CLASSES>
         <root url="file://C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/jasmine-core-2.3.4/lib" />
@@ -1418,6 +1430,14 @@
       </CLASSES>
       <SOURCES>
         <root url="file://C:/Ruby23/lib/ruby/gems/2.3.0/gems/minitest-5.8.3/lib" />
+      </SOURCES>
+    </library>
+    <library name="minitest-ci (v3.0.4.pre@9ab0f7, ruby-2.2.4-p230) [gem]">
+      <CLASSES>
+        <root url="file://C:/Ruby22-x64/lib/ruby/gems/2.2.0/bundler/gems/minitest-ci-9ab0f71b0c3d/lib" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://C:/Ruby22-x64/lib/ruby/gems/2.2.0/bundler/gems/minitest-ci-9ab0f71b0c3d/lib" />
       </SOURCES>
     </library>
     <library name="multi_json (v1.11.2, ruby-2.2.4-p230 (1)) [gem]">
